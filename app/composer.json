@@ -1,0 +1,28 @@
+{
+    "name": "mihaildrazdou/belaruscities",
+    "description": "CRUD for Belarus cities",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mihaildrazdou\\Belaruscities\\": "src/"
+        }
+    },
+    "require": {
+        "easterism/core2": "^2.9"
+    },
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/easterism/core2.git"
+    }],
+    "minimum-stability": "dev",
+    "config": {
+        "policy": {
+            "advisories": {
+                "ignore-id": [
+                    "PKSA-jqsz-ykjr-qncb",
+                    "PKSA-jvpv-pcrn-dfzc"
+                ]
+            }
+        }
+    }
+}
